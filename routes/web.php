@@ -23,3 +23,8 @@ Route::get('url_cliente', [controlador_cliente::class, 'mostrar_clientes'])->nam
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('formulario_cliente', [controlador_cliente::class, 'formulario_cliente'])->name('formulario_cliente');
+
+Route::post('guardar_cliente', [controlador_cliente::class, 'guardar'])->name('guardar_cliente');

@@ -326,6 +326,14 @@ return [
             'url' => 'url_cliente',
             'icon' => 'fas fa-fw fa-user',
           ],
+
+    [
+            'text' => 'crear Clientes',
+            'url' => 'formulario_cliente',
+            'icon' => 'fas fa-fw fa-user',
+          ],
+
+          
     ],
 
     /*
